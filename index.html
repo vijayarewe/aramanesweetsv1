@@ -4,76 +4,137 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Aramane | The Palace of Sweets</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Aramane Sweets | Palace of Sweets</title>
 
     <meta name="description"
-        content="Luxury sweets inspired by Karnataka's royal heritage. Premium gifting, authentic flavours and handcrafted delicacies.">
+          content="Luxury sweets inspired by Karnataka's royal heritage.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fonts -->
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Icons -->
 
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
 
 </head>
 
 <body>
 
-<!-- ==========================
-Loader
-=========================== -->
 
-<!-- ==========================
-Loader
-========================== -->
+<!-- ===================================
+LOADER
+=================================== -->
 
-<div id="loader" class="loader">
+<div id="loader">
 
     <div class="loader-content">
 
-        <img
-            src="assets/logo/logo.png"
-            alt="Aramane Sweets"
-            class="loader-logo"
-            width="220"
-            height="80"
-            loading="eager"
-            decoding="async">
+        <img src="assets/logo/logo.png"
+             class="loader-logo"
+             alt="Aramane" width="220" height="70">
 
         <div class="loader-line"></div>
 
     </div>
 
 </div>
-<!-- ==========================
-Announcement
-=========================== -->
 
-<div class="announcement">
 
-    <span>Crafted with Pure Ghee</span>
 
-    <span>•</span>
+<!-- ===================================
+TOP BAR
+=================================== -->
 
-    <span>Pan India Delivery</span>
+<div class="topbar">
 
-    <span>•</span>
+    <div class="container topbar-flex">
 
-    <span>Corporate Gifting</span>
+        <div class="topbar-left">
+
+            <span>
+
+                <i class="fa-solid fa-landmark"></i>
+
+                Proudly Crafted in Karnataka
+
+            </span>
+
+            <span>
+
+                <i class="fa-solid fa-crown"></i>
+
+                Royal Recipes Passed Down Generations
+
+            </span>
+
+        </div>
+
+
+        <div class="topbar-right">
+
+            <a href="#">
+
+                Bulk Orders /
+                Corporate Enquiries
+
+            </a>
+
+            <a href="tel:+917899953111">
+
+                <i class="fa-solid fa-phone"></i>
+
+                +91 78999 53111
+
+            </a>
+
+            <a href="#">
+
+                <i class="fab fa-instagram"></i>
+
+            </a>
+
+            <a href="#">
+
+                <i class="fab fa-facebook"></i>
+
+            </a>
+
+            <a href="#">
+
+                <i class="fab fa-whatsapp"></i>
+
+            </a>
+
+        </div>
+
+    </div>
 
 </div>
 
-<!-- ==========================
-Header
-=========================== -->
+
+
+<!-- ===================================
+HEADER
+=================================== -->
 
 <header id="header">
 
@@ -81,51 +142,171 @@ Header
 
 <nav class="navbar">
 
-<a href="#" class="logo">
 
-<img src="assets/logo/logo.png" alt="Aramane" width="220" height="70">
+<!-- LOGO -->
 
+<a href="index.html"
+   class="logo">
+
+<img
+            src="assets/logo/logo.png"
+            alt="Aramane Sweets"
+            class="loader-logo"
+            width="220"
+            height="80"
+            loading="eager"
+            decoding="async">
 </a>
+
+
+
+<!-- MENU -->
 
 <ul class="menu">
 
-<li><a href="#">Home</a></li>
+<li>
 
-<li><a href="#">Collections</a></li>
+<a class="active"
+   href="#">
 
-<li><a href="#">Corporate</a></li>
+HOME
 
-<li><a href="#">Festivals</a></li>
+</a>
 
-<li><a href="#">About</a></li>
+</li>
 
-<li><a href="#">Stores</a></li>
 
-<li><a href="#">Contact</a></li>
+<li class="dropdown">
+
+<a href="#">
+
+ROYAL COLLECTIONS
+
+<i class="fa-solid fa-angle-down"></i>
+
+</a>
+
+</li>
+
+
+<li class="dropdown">
+
+<a href="#">
+
+FESTIVALS
+
+<i class="fa-solid fa-angle-down"></i>
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+CORPORATE GIFTING
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+OUR STORY
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+STORES
+
+</a>
+
+</li>
+
+
+<li>
+
+<a href="#">
+
+CONTACT
+
+</a>
+
+</li>
 
 </ul>
 
-<div class="nav-buttons">
 
-<a href="#" class="btn-outline">
 
-Catalogue
 
-</a>
+<!-- RIGHT SIDE -->
 
-<a href="#" class="btn-primary">
+<div class="nav-actions">
 
-Order Online
+
+<button class="icon-btn">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+</button>
+
+
+<button class="icon-btn">
+
+<i class="fa-regular fa-user"></i>
+
+</button>
+
+
+
+<button class="icon-btn cart-btn">
+
+<i class="fa-solid fa-bag-shopping"></i>
+
+<span class="cart-count">
+
+0
+
+</span>
+
+</button>
+
+
+
+<a href="#"
+
+class="order-btn">
+
+<i class="fa-solid fa-crown"></i>
+
+ORDER ONLINE
 
 </a>
 
 </div>
 
-<div class="mobile-toggle">
 
-☰
 
-</div>
+
+<!-- MOBILE -->
+
+<button class="mobile-toggle">
+
+<i class="fa-solid fa-bars"></i>
+
+</button>
+
 
 </nav>
 
@@ -133,175 +314,259 @@ Order Online
 
 </header>
 
-<!-- ==========================
-Hero
-=========================== -->
+
+
+<!-- ===================================
+HERO STARTS HERE
+=================================== -->
 
 <section class="hero">
-
-<div class="hero-bg">
-
-<img src="assets/images/palace-bg.png" alt="Palace">
-
-</div>
 
 <div class="hero-overlay"></div>
 
 <div class="container hero-grid">
 
-<div class="hero-left">
+<!-- Left content starts here -->
+<div class="hero-content">
 
-<div class="subtitle">
+    <span class="hero-tag">
 
-Since 1998
+        Crafted with Heritage
 
-</div>
+    </span>
 
-<h1>
+    <div class="hero-divider">
 
-The Palace of Sweets
+        <span></span>
 
-</h1>
+        <i class="fa-solid fa-diamond"></i>
 
-<p>
+        <span></span>
 
-Experience handcrafted sweets inspired by Karnataka's royal heritage.
-Every creation is made with premium ingredients, traditional recipes,
-and luxurious presentation.
+    </div>
 
-</p>
+    <h1>
 
-<div class="hero-buttons">
+        Inspired by Royalty,<br>
 
-<a href="#" class="btn-primary">
+        <span>Made for Celebrations.</span>
 
-Explore Collections
+    </h1>
 
-</a>
+    <p>
 
-<a href="#" class="btn-outline">
+        From the kitchens of Karnataka's royal heritage
+        to your most precious moments. Every sweet is
+        handcrafted with the finest ingredients and
+        generations of traditional expertise.
 
-Corporate Gifts
+    </p>
 
-</a>
+    <div class="hero-buttons">
 
-</div>
+        <a href="#collections" class="btn-primary">
 
-<div class="hero-features">
+            Explore Royal Collections
 
-<div>
+            <i class="fa-solid fa-arrow-right"></i>
 
-<h3>25+</h3>
+        </a>
 
-<span>Years of Heritage</span>
+    </div>
 
-</div>
+    <div class="hero-slider">
 
-<div>
+        <span class="active"></span>
 
-<h3>50+</h3>
+        <span></span>
 
-<span>Signature Sweets</span>
+        <span></span>
 
-</div>
-
-<div>
-
-<h3>4</h3>
-
-<span>Stores</span>
+    </div>
 
 </div>
 
-</div>
+
+<!-- ==========================
+Hero Right
+========================== -->
+
+<div class="hero-image">
+
+    <img
+        src="assets/images/hero.png"
+        alt="Luxury Sweet Gift Box">
 
 </div>
 
-<div class="hero-right">
-
-<img src="assets/images/hero.png" alt="Gift Box">
-
 </div>
 
-</div>
 
-<div class="scroll-indicator">
 
-<span></span>
+<!-- ==========================
+Floating Feature Panel
+========================== -->
+
+<div class="floating-panel">
+
+    <div class="floating-card">
+
+        <i class="fa-solid fa-gift"></i>
+
+        <div>
+
+            <h4>Corporate</h4>
+
+            <p>Gifting</p>
+
+        </div>
+
+    </div>
+
+    <div class="floating-card">
+
+        <i class="fa-solid fa-box-open"></i>
+
+        <div>
+
+            <h4>Custom</h4>
+
+            <p>Hampers</p>
+
+        </div>
+
+    </div>
+
+    <div class="floating-card">
+
+        <i class="fa-solid fa-truck-fast"></i>
+
+        <div>
+
+            <h4>Pan India</h4>
+
+            <p>Delivery</p>
+
+        </div>
+
+    </div>
+
+    <div class="floating-card">
+
+        <i class="fa-solid fa-shield-heart"></i>
+
+        <div>
+
+            <h4>Safe &</h4>
+
+            <p>Hygienic</p>
+
+        </div>
+
+    </div>
 
 </div>
 
 </section>
 
-<!-- ==========================
-Signature Collections
-=========================== -->
 
-<section class="collections">
+<!-- ==========================
+Highlights Strip
+========================== -->
+
+<section class="highlights">
 
 <div class="container">
 
-<div class="section-title">
+<div class="highlight-grid">
 
-<span>Our Collections</span>
 
-<h2>Signature Collections</h2>
+<div class="highlight-item">
 
-<p>
+<i class="fa-solid fa-crown"></i>
 
-Curated luxury assortments inspired by the royal kitchens of Karnataka.
+<div>
 
-</p>
+<h4>Royal Heritage</h4>
 
-</div>
-
-<div class="collection-grid">
-
-<div class="collection-card">
-
-<img src="assets/images/collections/royal-classics.png" alt="">
-
-<h3>Royal Classics</h3>
+<p>Traditional recipes passed down generations</p>
 
 </div>
 
-<div class="collection-card">
+</div>
 
-<img src="assets/images/collections/kaju.png" alt="">
 
-<h3>Kaju Collection</h3>
+<div class="highlight-item">
+
+<i class="fa-solid fa-leaf"></i>
+
+<div>
+
+<h4>Premium Quality</h4>
+
+<p>Finest ingredients, no compromises</p>
 
 </div>
 
-<div class="collection-card">
+</div>
 
-<img src="assets/images/collections/festival.jpg" alt="">
 
-<h3>Festival Specials</h3>
+<div class="highlight-item">
+
+<i class="fa-solid fa-shield"></i>
+
+<div>
+
+<h4>Hygienic & Safe</h4>
+
+<p>Modern kitchens with strict quality standards</p>
 
 </div>
 
-<div class="collection-card">
+</div>
 
-<img src="assets/images/collections/dryfruits.jpg" alt="">
 
-<h3>Dry Fruit Delights</h3>
+<div class="highlight-item">
+
+<i class="fa-regular fa-clock"></i>
+
+<div>
+
+<h4>On Time Delivery</h4>
+
+<p>Reliable delivery for every celebration</p>
 
 </div>
 
-<div class="collection-card">
+</div>
 
-<img src="assets/images/collections/luxury-box.jpg" alt="">
 
-<h3>Luxury Gift Boxes</h3>
+<div class="highlight-item">
+
+<i class="fa-solid fa-award"></i>
+
+<div>
+
+<h4>Trusted by 1000+</h4>
+
+<p>Families & Corporate Clients</p>
 
 </div>
 
-<div class="collection-card">
+</div>
 
-<img src="assets/images/collections/desserts.jpg" alt="">
 
-<h3>Modern Delights</h3>
+<div class="highlight-item">
+
+<i class="fa-regular fa-heart"></i>
+
+<div>
+
+<h4>Made With Love</h4>
+
+<p>Every sweet crafted with care</p>
+
+</div>
 
 </div>
 
@@ -310,54 +575,243 @@ Curated luxury assortments inspired by the royal kitchens of Karnataka.
 </div>
 
 </section>
-<!-- ==========================================
-HERITAGE
-========================================== -->
 
-<section class="heritage">
 
-<div class="container heritage-grid">
 
-<div class="heritage-image">
+<!-- ==========================
+Signature Collections
+========================== -->
 
-<img src="assets/images/heritage.png" alt="Heritage">
+<section id="collections" class="collections">
 
-</div>
+<div class="container">
 
-<div class="heritage-content">
+<div class="section-header">
 
-<span class="section-tag">
+<span>
 
-OUR HERITAGE
+The Royal Experience
 
 </span>
 
 <h2>
 
-Inspired by the Royal Kitchens of Karnataka
+Our Signature Collections
 
 </h2>
 
-<p>
+<a href="#">
 
-Aramane celebrates Karnataka's rich culinary heritage by preserving
-traditional recipes while presenting them with contemporary elegance.
-Every sweet reflects craftsmanship, purity and timeless flavours.
+View All Collections
 
-</p>
-
-<p>
-
-From festive celebrations to luxury gifting, our collections are
-designed to create unforgettable experiences.
-
-</p>
-
-<a href="#" class="btn-primary">
-
-Discover Our Story
+<i class="fa-solid fa-arrow-right"></i>
 
 </a>
+
+</div>
+
+<div class="collection-grid">
+    <!-- ==========================
+Collection 01
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/royal-classics.png"
+             alt="Royal Classics">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Royal Classics</h3>
+
+        <p>
+            Timeless traditional sweets crafted from
+            recipes preserved through generations.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
+
+
+
+<!-- ==========================
+Collection 02
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/festival.png"
+             alt="Festival Collections">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Festival Collections</h3>
+
+        <p>
+            Premium assortments designed for every
+            festive celebration and gifting occasion.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
+
+
+
+<!-- ==========================
+Collection 03
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/luxury-box.png"
+             alt="Luxury Gift Boxes">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Luxury Gift Boxes</h3>
+
+        <p>
+            Elegant handcrafted hampers for weddings,
+            premium gifting and celebrations.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
+
+
+
+<!-- ==========================
+Collection 04
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/kaju.png"
+             alt="Premium Kaju Sweets">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Premium Kaju Sweets</h3>
+
+        <p>
+            Rich cashew delicacies prepared with
+            pure ghee and the finest ingredients.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
+
+
+
+<!-- ==========================
+Collection 05
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/dryfruits.png"
+             alt="Royal Dry Fruits">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Royal Dry Fruits</h3>
+
+        <p>
+            Handpicked premium nuts beautifully packed
+            for healthy luxury gifting.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
+
+
+
+<!-- ==========================
+Collection 06
+========================== -->
+
+<article class="collection-card">
+
+    <div class="card-image">
+
+        <img src="assets/images/desserts.png"
+             alt="Modern Delights">
+
+    </div>
+
+    <div class="card-content">
+
+        <h3>Modern Delights</h3>
+
+        <p>
+            Contemporary desserts and pastries crafted
+            with premium international flavours.
+        </p>
+
+        <a href="#" class="circle-btn">
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</article>
 
 </div>
 
@@ -367,11 +821,192 @@ Discover Our Story
 
 
 
+<!-- ==========================
+Special Banner
+========================== -->
+
+<section class="special-banner">
+
+<div class="container">
+
+<div class="banner-wrapper">
+
+<div class="banner-left">
+
+<div class="gift-icon">
+
+<i class="fa-solid fa-gift"></i>
+
+</div>
+
+<div>
+
+<h3>Make It Extra Special</h3>
+
+<p>
+
+Add a personalised greeting card
+to every royal gift hamper.
+
+</p>
+
+</div>
+
+</div>
 
 
-<!-- ==========================================
-WHY ARAMANE
-========================================== -->
+
+<div class="banner-center">
+
+<img src="assets/images/cards.png"
+
+alt="Greeting Cards">
+
+</div>
+
+
+
+<div class="banner-right">
+
+<h3>
+
+Weddings &nbsp; | &nbsp;
+Festivals &nbsp; | &nbsp;
+Corporate Events
+
+</h3>
+
+<p>
+
+Curated gifting solutions
+for every special occasion.
+
+</p>
+
+<a href="#"
+
+class="banner-btn">
+
+Enquire Now
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ==========================
+Next Section Starts Here
+========================== -->
+
+<section class="heritage">
+
+<div class="container">
+    <div class="heritage-grid">
+
+    <!-- ==========================
+    Left Image
+    ========================== -->
+
+    <div class="heritage-image">
+
+        <img src="assets/images/heritage.png"
+             alt="Royal Sweet Making">
+
+    </div>
+
+
+    <!-- ==========================
+    Right Content
+    ========================== -->
+
+    <div class="heritage-content">
+
+        <span class="section-tag">
+
+            Our Heritage
+
+        </span>
+
+        <h2>
+
+            A Royal Legacy of
+            Taste & Tradition
+
+        </h2>
+
+        <p>
+
+            Aramane is inspired by the grandeur of
+            Karnataka's royal kitchens where every
+            sweet symbolised celebration, generosity
+            and craftsmanship.
+
+        </p>
+
+        <p>
+
+            Our master artisans continue these timeless
+            traditions using premium ingredients, pure
+            ghee and recipes perfected over generations.
+
+        </p>
+
+        <div class="heritage-stats">
+
+            <div class="stat">
+
+                <h3>40+</h3>
+
+                <p>Years of Heritage</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3>150+</h3>
+
+                <p>Royal Recipes</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3>100%</h3>
+
+                <p>Pure Ingredients</p>
+
+            </div>
+
+        </div>
+
+        <a href="#" class="btn-primary">
+
+            Discover Our Story
+
+        </a>
+
+    </div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ======================================
+WHY CHOOSE ARAMANE
+====================================== -->
 
 <section class="why">
 
@@ -381,23 +1016,26 @@ WHY ARAMANE
 
 <span>
 
-Why Choose Aramane
+Why Choose Us
 
 </span>
 
 <h2>
 
-Luxury Crafted to Perfection
+Crafted Like Royalty
 
 </h2>
 
 </div>
 
+
+
 <div class="why-grid">
 
 <div class="why-card">
 
-<img src="assets/icons/ghee.svg">
+<img src="assets/icons/ghee.svg"
+     alt="Pure Ghee">
 
 <h3>
 
@@ -407,33 +1045,63 @@ Pure Ghee
 
 <p>
 
-Prepared using premium quality ghee for authentic taste.
+Prepared only using premium
+quality pure ghee.
 
 </p>
 
 </div>
 
+
+
 <div class="why-card">
 
-<img src="assets/icons/chef.svg">
+<img src="assets/icons/chef.svg"
+     alt="Master Halwai">
 
 <h3>
 
-Traditional Recipes
+Master Halwai
 
 </h3>
 
 <p>
 
-Recipes passed through generations.
+Every sweet handcrafted by
+experienced artisans.
 
 </p>
 
 </div>
 
+
+
 <div class="why-card">
 
-<img src="assets/icons/gift.svg">
+<img src="assets/icons/leaf.svg"
+     alt="Natural Ingredients">
+
+<h3>
+
+Natural Ingredients
+
+</h3>
+
+<p>
+
+No compromise on quality,
+taste or freshness.
+
+</p>
+
+</div>
+
+
+
+<div class="why-card">
+
+<img src="assets/icons/gift.svg"
+     alt="Luxury Packaging">
 
 <h3>
 
@@ -443,61 +1111,52 @@ Luxury Packaging
 
 <p>
 
-Premium gift boxes inspired by royal heritage.
+Premium gifting boxes inspired
+by royal elegance.
 
 </p>
 
 </div>
 
+
+
 <div class="why-card">
 
-<img src="assets/icons/leaf.svg">
+<img src="assets/icons/truck.svg"
+     alt="Delivery">
 
 <h3>
 
-Fresh Ingredients
+Fast Delivery
 
 </h3>
 
 <p>
 
-Only carefully selected ingredients are used.
+Across Karnataka with
+freshness guaranteed.
 
 </p>
 
 </div>
 
+
+
 <div class="why-card">
 
-<img src="assets/icons/truck.svg">
+<img src="assets/icons/star.svg"
+     alt="Trusted">
 
 <h3>
 
-Pan India Delivery
+Trusted Brand
 
 </h3>
 
 <p>
 
-Delivering freshness across the country.
-
-</p>
-
-</div>
-
-<div class="why-card">
-
-<img src="assets/icons/star.svg">
-
-<h3>
-
-Premium Experience
-
-</h3>
-
-<p>
-
-Luxury sweets for every celebration.
+Thousands of happy families
+celebrate with Aramane.
 
 </p>
 
@@ -511,13 +1170,9 @@ Luxury sweets for every celebration.
 
 
 
-
-
-
-
-<!-- ==========================================
+<!-- ======================================
 ROYAL PROCESS
-========================================== -->
+====================================== -->
 
 <section class="process">
 
@@ -527,19 +1182,22 @@ ROYAL PROCESS
 
 <span>
 
-Crafted With Care
+Royal Process
 
 </span>
 
 <h2>
 
-From Tradition to Celebration
+From Ingredients to Celebration
 
 </h2>
 
 </div>
 
+
+
 <div class="process-grid">
+
 
 <div class="step">
 
@@ -551,17 +1209,20 @@ From Tradition to Celebration
 
 <h3>
 
-Selecting Ingredients
+Premium Selection
 
 </h3>
 
 <p>
 
-Premium nuts, pure ghee and finest ingredients.
+Only the finest ingredients
+are sourced.
 
 </p>
 
 </div>
+
+
 
 <div class="step">
 
@@ -573,17 +1234,20 @@ Premium nuts, pure ghee and finest ingredients.
 
 <h3>
 
-Handcrafted
+Traditional Craft
 
 </h3>
 
 <p>
 
-Prepared by experienced artisans using traditional methods.
+Prepared by experienced
+master artisans.
 
 </p>
 
 </div>
+
+
 
 <div class="step">
 
@@ -595,17 +1259,20 @@ Prepared by experienced artisans using traditional methods.
 
 <h3>
 
-Luxury Packaging
+Luxury Packing
 
 </h3>
 
 <p>
 
-Beautiful presentation inspired by Karnataka's royal heritage.
+Packed beautifully with
+royal elegance.
 
 </p>
 
 </div>
+
+
 
 <div class="step">
 
@@ -623,7 +1290,8 @@ Delivered Fresh
 
 <p>
 
-Packed with care and delivered for every celebration.
+Ready to become part of
+your celebrations.
 
 </p>
 
@@ -634,60 +1302,114 @@ Packed with care and delivered for every celebration.
 </div>
 
 </section>
-<!-- ==========================================
-CORPORATE GIFTING
-========================================== -->
+
+
+
+<!-- ======================================
+Corporate Gifting Starts Here
+====================================== -->
 
 <section class="corporate">
 
-<div class="container corporate-grid">
+<div class="container">
+
+<div class="corporate-grid">
+    <!-- ======================================
+Corporate Left
+====================================== -->
 
 <div class="corporate-content">
 
-<span class="section-tag">
+    <span class="section-tag">
 
-Corporate Gifting
+        Corporate Gifting
 
-</span>
+    </span>
 
-<h2>
+    <h2>
 
-Impress Beyond Words
+        Impress Every Client<br>
 
-</h2>
+        With Royal Elegance
 
-<p>
+    </h2>
 
-Celebrate your employees, partners and clients with premium gift
-collections inspired by Karnataka's royal heritage.
+    <p>
 
-Luxury packaging, customized branding and nationwide delivery.
+        Whether it's employee appreciation,
+        festive gifting or VIP hampers,
+        Aramane creates unforgettable gifting
+        experiences inspired by Karnataka's
+        royal heritage.
 
-</p>
+    </p>
 
-<ul class="corporate-list">
+    <ul class="corporate-list">
 
-<li>✓ Custom Branding</li>
+        <li>
 
-<li>✓ Festival Hampers</li>
+            <i class="fa-solid fa-circle-check"></i>
 
-<li>✓ Bulk Orders</li>
+            Custom Branding
 
-<li>✓ Pan India Delivery</li>
+        </li>
 
-</ul>
+        <li>
 
-<a href="#" class="btn-primary">
+            <i class="fa-solid fa-circle-check"></i>
 
-Download Catalogue
+            Personalized Greeting Cards
 
-</a>
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Premium Luxury Packaging
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Bulk Corporate Orders
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Pan India Shipping
+
+        </li>
+
+    </ul>
+
+    <a href="#" class="btn-primary">
+
+        Request Catalogue
+
+        <i class="fa-solid fa-arrow-right"></i>
+
+    </a>
 
 </div>
 
+
+<!-- ======================================
+Corporate Image
+====================================== -->
+
 <div class="corporate-image">
 
-<img src="assets/images/corporate-box.jpg" alt="Corporate Gift">
+    <img src="assets/images/corporate-box.png"
+
+         alt="Corporate Gift Box">
+
+</div>
 
 </div>
 
@@ -697,11 +1419,9 @@ Download Catalogue
 
 
 
-
-
-<!-- ==========================================
-FESTIVAL COLLECTIONS
-========================================== -->
+<!-- ======================================
+Festival Collections
+====================================== -->
 
 <section class="festival">
 
@@ -709,61 +1429,122 @@ FESTIVAL COLLECTIONS
 
 <div class="section-title">
 
-<span>Celebrate Every Occasion</span>
+<span>
 
-<h2>Festival Collections</h2>
+Celebrate Together
+
+</span>
+
+<h2>
+
+Festival Collections
+
+</h2>
 
 </div>
+
+
 
 <div class="festival-grid">
 
-<div class="festival-card">
 
-<img src="assets/images/dasara.jpg" alt="">
 
-<div class="festival-content">
+<article class="festival-card">
 
-<h3>Dasara Collection</h3>
+<img src="assets/images/dasara.png"
 
-<p>Inspired by Mysore's royal celebrations.</p>
-
-<a href="#">View Collection →</a>
-
-</div>
-
-</div>
-
-<div class="festival-card">
-
-<img src="assets/images/deepavali.jpg" alt="">
+alt="Dasara Collection">
 
 <div class="festival-content">
 
-<h3>Deepavali Collection</h3>
+<h3>
 
-<p>Luxury gift boxes crafted for the Festival of Lights.</p>
+Royal Dasara
 
-<a href="#">View Collection →</a>
+</h3>
+
+<p>
+
+Traditional sweets inspired by
+Mysore Dasara celebrations.
+
+</p>
+
+<a href="#">
+
+Explore Collection
+
+</a>
 
 </div>
 
-</div>
+</article>
 
-<div class="festival-card">
 
-<img src="assets/images/wedding.jpg" alt="">
+
+<article class="festival-card">
+
+<img src="assets/images/deepavali.png"
+
+alt="Deepavali Collection">
 
 <div class="festival-content">
 
-<h3>Wedding Collection</h3>
+<h3>
 
-<p>Elegant sweets for unforgettable celebrations.</p>
+Deepavali Grandeur
 
-<a href="#">View Collection →</a>
+</h3>
+
+<p>
+
+Luxury gift hampers crafted for
+the Festival of Lights.
+
+</p>
+
+<a href="#">
+
+Explore Collection
+
+</a>
 
 </div>
 
+</article>
+
+
+
+<article class="festival-card">
+
+<img src="assets/images/wedding.png"
+
+alt="Wedding Collection">
+
+<div class="festival-content">
+
+<h3>
+
+Wedding Royalty
+
+</h3>
+
+<p>
+
+Elegant gifting for weddings,
+engagements and celebrations.
+
+</p>
+
+<a href="#">
+
+Explore Collection
+
+</a>
+
 </div>
+
+</article>
 
 </div>
 
@@ -773,11 +1554,9 @@ FESTIVAL COLLECTIONS
 
 
 
-
-
-<!-- ==========================================
-TESTIMONIALS
-========================================== -->
+<!-- ======================================
+Testimonials
+====================================== -->
 
 <section class="testimonial">
 
@@ -785,11 +1564,21 @@ TESTIMONIALS
 
 <div class="section-title">
 
-<span>Testimonials</span>
+<span>
 
-<h2>What Our Customers Say</h2>
+Loved by Families
+
+</span>
+
+<h2>
+
+What Our Customers Say
+
+</h2>
 
 </div>
+
+
 
 <div class="testimonial-grid">
 
@@ -799,8 +1588,9 @@ TESTIMONIALS
 
 <p>
 
-One of the finest sweets I've ever tasted.
-Beautiful packaging and exceptional quality.
+Every sweet reminded us of
+our childhood. Beautiful
+packaging and outstanding taste.
 
 </p>
 
@@ -812,14 +1602,17 @@ Ramesh Kumar
 
 </div>
 
+
+
 <div class="testimonial-card">
 
 ★★★★★
 
 <p>
 
-Perfect corporate gifts.
-Everyone appreciated the presentation.
+Our corporate clients loved
+the premium gift hampers.
+Highly recommended.
 
 </p>
 
@@ -831,19 +1624,22 @@ Infosys HR Team
 
 </div>
 
+
+
 <div class="testimonial-card">
 
 ★★★★★
 
 <p>
 
-The authentic Mysore Pak reminds me of palace traditions.
+Authentic Karnataka sweets
+with luxurious presentation.
 
 </p>
 
 <h4>
 
-Anitha Rao
+Priya S.
 
 </h4>
 
@@ -857,11 +1653,9 @@ Anitha Rao
 
 
 
-
-
-<!-- ==========================================
-STORE LOCATOR
-========================================== -->
+<!-- ======================================
+Stores
+====================================== -->
 
 <section class="stores">
 
@@ -869,51 +1663,115 @@ STORE LOCATOR
 
 <div class="section-title">
 
-<span>Visit Us</span>
+<span>
 
-<h2>Our Stores</h2>
+Visit Us
+
+</span>
+
+<h2>
+
+Our Stores
+
+</h2>
 
 </div>
+
+
 
 <div class="store-grid">
 
 <div class="store-card">
 
-<h3>Chitradurga</h3>
+<h3>
 
-<p>Main Factory & Flagship Store</p>
+Chitradurga
 
-<a href="#">View Location</a>
+</h3>
 
-</div>
+<p>
 
-<div class="store-card">
+Factory Outlet
 
-<h3>Davanagere</h3>
+</p>
 
-<p>Luxury Sweet Boutique</p>
+<a href="#">
 
-<a href="#">View Location</a>
+Get Directions
 
-</div>
-
-<div class="store-card">
-
-<h3>Hospete</h3>
-
-<p>Premium Sweets & Snacks</p>
-
-<a href="#">View Location</a>
+</a>
 
 </div>
 
+
+
 <div class="store-card">
 
-<h3>Bengaluru</h3>
+<h3>
 
-<p>Coming Soon</p>
+Hospete
 
-<a href="#">Know More</a>
+</h3>
+
+<p>
+
+Flagship Store
+
+</p>
+
+<a href="#">
+
+Get Directions
+
+</a>
+
+</div>
+
+
+
+<div class="store-card">
+
+<h3>
+
+Davanagere
+
+</h3>
+
+<p>
+
+Premium Outlet
+
+</p>
+
+<a href="#">
+
+Get Directions
+
+</a>
+
+</div>
+
+
+
+<div class="store-card">
+
+<h3>
+
+Bengaluru
+
+</h3>
+
+<p>
+
+Coming Soon
+
+</p>
+
+<a href="#">
+
+Know More
+
+</a>
 
 </div>
 
@@ -925,11 +1783,9 @@ STORE LOCATOR
 
 
 
-
-
-<!-- ==========================================
-NEWSLETTER
-========================================== -->
+<!-- ======================================
+Newsletter
+====================================== -->
 
 <section class="newsletter">
 
@@ -937,21 +1793,21 @@ NEWSLETTER
 
 <h2>
 
-Stay Connected
+Join The Royal Family
 
 </h2>
 
 <p>
 
-Receive festival launches, exclusive offers and premium collections.
+Receive festival launches,
+exclusive offers and royal
+gifting ideas.
 
 </p>
 
 <form>
 
-<input
-
-type="email"
+<input type="email"
 
 placeholder="Enter your email">
 
@@ -969,77 +1825,81 @@ Subscribe
 
 
 
-
-
-<!-- ==========================================
-FOOTER
-========================================== -->
+<!-- ======================================
+Footer
+====================================== -->
 
 <footer>
 
-<div class="container footer-grid">
+<div class="container">
+
+<div class="footer-grid">
 
 <div>
 
-<h3>
+<img src="assets/logo/logo-white.png"
 
-Aramane
+alt="Aramane"
 
-</h3>
+style="max-width:220px;margin-bottom:20px;">
 
 <p>
 
-The Palace of Sweets
-
-Luxury handcrafted sweets inspired by Karnataka's royal heritage.
+The Royal Sweet Heritage of Karnataka.
 
 </p>
 
 </div>
 
+
+
 <div>
 
 <h4>
 
-Quick Links
+Collections
 
 </h4>
 
 <ul>
 
-<li><a href="#">Home</a></li>
+<li><a href="#">Royal Classics</a></li>
 
-<li><a href="#">Collections</a></li>
+<li><a href="#">Luxury Hampers</a></li>
 
-<li><a href="#">Corporate</a></li>
+<li><a href="#">Corporate Gifts</a></li>
+
+<li><a href="#">Festival Specials</a></li>
+
+</ul>
+
+</div>
+
+
+
+<div>
+
+<h4>
+
+Company
+
+</h4>
+
+<ul>
 
 <li><a href="#">About</a></li>
 
-</ul>
+<li><a href="#">Stores</a></li>
 
-</div>
-
-<div>
-
-<h4>
-
-Support
-
-</h4>
-
-<ul>
+<li><a href="#">Careers</a></li>
 
 <li><a href="#">Contact</a></li>
 
-<li><a href="#">FAQ</a></li>
-
-<li><a href="#">Privacy Policy</a></li>
-
-<li><a href="#">Terms</a></li>
-
 </ul>
 
 </div>
+
+
 
 <div>
 
@@ -1051,13 +1911,19 @@ Contact
 
 <p>
 
-info@aramane.com
+📞 +91 78999 53111
 
 </p>
 
 <p>
 
-+91 98765 43210
+✉ info@aramanesweets.com
+
+</p>
+
+<p>
+
+Karnataka, India
 
 </p>
 
@@ -1065,15 +1931,18 @@ info@aramane.com
 
 </div>
 
+
+
 <div class="copyright">
 
-© 2026 Aramane. All Rights Reserved.
+© 2026 Aramane Sweets.
+All Rights Reserved.
+
+</div>
 
 </div>
 
 </footer>
-
-
 
 
 
