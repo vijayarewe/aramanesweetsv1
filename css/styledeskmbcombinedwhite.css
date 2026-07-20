@@ -791,7 +791,7 @@ height:76px;
 
 section{
 
-padding:10px 0;
+padding:70px 0;
 
 }
 
@@ -802,15 +802,14 @@ padding:0;
 }
 
 .hero h1{
-    gap:100px;
-    font-size:2rem;
+    font-size:3.2rem;
     line-height:.92;
     max-width:300px;
 }
 .hero__buttons{
     flex-direction:column;
     width:220px;
-    gap:24px;
+    gap:14px;
 }
 
 .hero__buttons .btn{
