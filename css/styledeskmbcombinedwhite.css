@@ -21,7 +21,7 @@ html{
 }
 
 body{
-    background:#FAF8F3;
+    background:#ffffff;
     color:#2f2f2f;
     overflow-x:hidden;
     font-family:"Lora",serif;
@@ -531,12 +531,13 @@ font-weight:600;
 
 .hero h1{
 
+padding:70px 0px;
     
-font-size:6rem;
+font-size:3.5rem;
 
 line-height:.95;
 
-max-width:500px;
+max-width:300px;
 
 color:#e60914;
 
@@ -556,7 +557,7 @@ text-shadow:
 }
 .hero p{
 
-font-size:2.1rem;
+font-size:1.1rem;
 
 color:#aa3c1a;
 
@@ -791,7 +792,7 @@ height:76px;
 
 section{
 
-padding:70px 0;
+padding:20px 0;
 
 }
 
@@ -802,6 +803,7 @@ padding:0;
 }
 
 .hero h1{
+    padding:0px 0px;
     font-size:3.2rem;
     line-height:.92;
     max-width:300px;
@@ -1776,9 +1778,13 @@ MOBILE MENU
 
 .mobile-menu a{
 
-    color:#fff;
+    color:hsl(318, 100%, 76%);
     font-size:1.05rem;
     transition:.3s;
+    font-weight: 200;
+   /* font-family: 'Urbanist', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+*/ 
+font-family: 'Lucida Sans Regular', Verdana, sans-serif;
 
 }
 
